@@ -30,8 +30,8 @@ Feature: User
     Then I validate the status code is 200
     And validate the data detail after authorize
 
-  Scenario: GET - As a user I have be able to get detail user
-    Given I set an endpoint for GET detail user
-    When I request GET detail user
-    Then I validate the status code is 200
-    And validate the data detail
+#  Scenario: GET - As a user I have be able to get detail user
+#    Given I set an endpoint for GET detail user
+#    When I request GET detail user
+#    Then I validate the status code is 200
+#    And validate the data detail
